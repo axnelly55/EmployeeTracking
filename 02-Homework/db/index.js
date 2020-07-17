@@ -6,3 +6,15 @@ class Database{
     }
 }
 
+class position{
+    createRole(role) {
+        return this.dbConnection.query("insert into role set ?", role)
+    }
+}
+
+class title{
+    createDepartment(department) {
+        return this.dbConnection.query("insert into department set?", role)
+    }
+}
+
