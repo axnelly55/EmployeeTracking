@@ -8,7 +8,7 @@ const ADD_ROLE = "Add a role";
 //const ADD_EMPLOYEE = "Add an employee";
 const UPDATE_EMPLOYEE_ROLE = "Update an employee's role";
 
-
+mainMenu();
 //add to mainMenu function to display table of dept, roles, 
 //and employee data (a full join!)
 function mainMenu() {

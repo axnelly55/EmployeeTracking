@@ -11,12 +11,12 @@ var connection = mysql.createConnection({
 
     // Your password
     password: "password",
-    database: "employee_trackerDB"
+    database: "employees"
 });
 
 connection.connect(function (err) {
     if (err) throw err;
-    startMenu();
+    mainMenu();
 });
 
 module.exports = connection.js;
