@@ -1,3 +1,4 @@
+var inquirer = require("inquirer");
 
 //list of constants for the dif main menu action options
 const VIEW_DEPARTMENTS = "View all departments";
